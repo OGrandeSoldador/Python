@@ -1,0 +1,57 @@
+RECURSAO
+
+Calcular o fatorial de um número n
+Somar todos os números de 1 até n
+Contar o número de dígitos em um número inteiro
+Inverter uma string
+Verificar se um elemento está presente em uma lista
+Calcular x^y
+Verificar se uma string é um palíndromo
+
+
+Funcao
+
+1. Faça uma função chamada somaImposto. A função possui dois
+parâmetros :
+a) taxaImposto, que é a porcentagem de imposto sobre vendas
+b) custo, que é o custo de um item antes do imposto.
+A função retorna o valor de custo alterado para incluir o
+imposto sobre vendas.'''
+
+'''2. Faça uma função que informe a quantidade de dígitos de
+um determinado número inteiro informado pelo usuário.'''
+
+'''3. Fazer uma função que recebe um argumento inteiro.
+A função retorna o valor de caractere ‘P’,
+se seu argumento for positivo, e ‘N’,
+se seu argumento for zero ou negativo.'''
+
+'''4. Faça uma função que retorne o reverso de um número inteiro informado. Por exemplo: 127 ->
+721.'''
+
+'''5. Considere a seguinte fórmula para calcular o
+mdc (máximo divisor comum) de dois números
+inteiros positivos:
+– mdc(a, b) = b, se b divide a (ou seja, a%b == 0)
+– mdc(a, b) = mdc(b, a%b), caso contrário
+Escreva uma função em Python que, dados dois
+números, retorne o máximo divisor comum entre
+eles. Usar recursividade.
+
+
+A = [10,4,3,67,3,5,23,72]
+print(find3(A,72))
+
+def find3(array,num):
+    if array[0] == num:
+        return contem
+    if array[0] != 'end':
+        return find3(tiraPrimeriaItem(array),num)
+    else:
+        return naocontem
+
+def tiraPrimeriaItem(list):
+    for i in range(len(list) - 1):
+        list[i] = list[i+1]
+    list[i+1]='end'
+    return list
