@@ -39,19 +39,3 @@ números, retorne o máximo divisor comum entre
 eles. Usar recursividade.
 
 
-A = [10,4,3,67,3,5,23,72]
-print(find3(A,72))
-
-def find3(array,num):
-    if array[0] == num:
-        return contem
-    if array[0] != 'end':
-        return find3(tiraPrimeriaItem(array),num)
-    else:
-        return naocontem
-
-def tiraPrimeriaItem(list):
-    for i in range(len(list) - 1):
-        list[i] = list[i+1]
-    list[i+1]='end'
-    return list

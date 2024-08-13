@@ -14,7 +14,7 @@ def sortedlist(numbers):
 
 
 def main():
-    numbers = [5,4,3,2,1]
+    numbers = [5,4,5,6,1,2]
 
     print(sortedlist(numbers))
 
